@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Storage Sorter",
+        "description": "Set up Storage Sorter to track items across your storage spaces."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Storage Sorter is already configured."
+    }
+  }
+}
