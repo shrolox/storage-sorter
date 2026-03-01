@@ -4,6 +4,20 @@ Track items across numbered storage spaces in your basement (or anywhere else). 
 
 ## Installation
 
+### Via HACS (recommended)
+
+[HACS](https://hacs.xyz/) lets you install and update custom integrations directly from the Home Assistant UI.
+
+1. Open Home Assistant and go to **HACS → Integrations**.
+2. Click the **three-dot menu** (top right) → **Custom repositories**.
+3. Paste the GitHub URL of this repository, select **Integration** as the category, and click **Add**.
+4. The integration will appear in the HACS store — click **Download**.
+5. Restart Home Assistant.
+6. Go to **Settings → Devices & Services → Add Integration** and search for **Storage Sorter**.
+7. Confirm the setup — no configuration is needed.
+
+### Manual
+
 1. Copy the `custom_components/storage_sorter` folder into your Home Assistant `config/custom_components/` directory.
 2. Restart Home Assistant.
 3. Go to **Settings → Devices & Services → Add Integration** and search for **Storage Sorter**.
